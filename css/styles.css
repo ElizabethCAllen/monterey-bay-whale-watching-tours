@@ -1,0 +1,148 @@
+  .text-font{
+    font-family: 'IM fell english sc', sans-serif;
+  }
+  .black{
+    color: black;
+  }
+  .font-size{
+    font-size: 18px;
+  }
+  .summer-green-background{
+    background-color: #adc1b0;
+
+  }
+  .jade-background{
+    background-color: #6aa37c;
+  }
+  .deep-pine-background{
+    background-color: #547471;
+  }
+  .whale-blue{
+    background-color: #4d5264;
+  }
+  .navbar-default{
+      background-color: transparent;
+      border-color: transparent;
+      font-family: 'IM fell english sc', sans-serif;
+    }
+    .logo-img{
+      height: 40px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+      color:#FFF;
+      background-color: rgba(17,17,17,.5);
+    }
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+      
+      color: #a6c1b0;
+    }
+    .navbar-default .navbar-nav>li>a{
+      color: #6aa27c;
+      text-shadow: 1px 1px 2px #0a0a0a;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+  .transition{
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+  }
+  .transition:hover{
+      width: inherit;
+      height:4em;
+      background-color: #547471;
+      border-radius: 10px;
+  }
+    
+  .jumbotron{
+      
+      height: 40em;
+      font-family: 'IM fell english sc', sans-serif;
+      text-align: center;
+      font-size: 35;
+      color: black;
+      text-shadow: 1px 1px 2px lightgray;
+      background-image: url('../images/sho-hatakeyama-117292-unsplash.jpg');
+      background-size: cover;
+      background-position: top;
+    }
+    .header-text{
+      padding-top: 3em;
+    }
+
+
+  .about-us{
+      font-family: 'IM fell english sc', sans-serif;
+      font-size: 15pt;
+      color: black;
+      padding-bottom: 1em;
+      padding-top: 3em;
+    }
+  .footer{
+      font-family: 'IM fell english sc', sans-serif;
+      color: black;
+      background-color: #4d5264;
+      /* height: 5em; */
+    }
+  .company-email{
+    text-decoration: none;
+    color: black;
+  }
+  .social-media{
+    padding-top: 4em;
+  }
+
+  .twitter-account{
+    color: #1DA1F2;
+  }
+  .instagram-account{
+    color: #fbc11c;
+    width: inherit;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-duration: infinite;
+  }
+  @keyframes color-change {
+      0%   {color:#fbc11c; left:0px; top:0px;}
+      25%  {color:#c1326c; left:200px; top:0px;}
+      50%  {color:#ac3c8e; left:200px; top:200px;}
+      75%  {color:#e3225d; left:0px; top:200px;}
+      100% {color:#fbc11c; left:0px; top:0px;}
+  }
+  .facebook-account{
+    color: #4867AA;
+  }
+
+  .bold-dog-notice{
+    font-weight: bold;
+  }
+  .pregnant-notice{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .gallery-img{
+    height: 25em;
+    width: 25em;
+  }
+
+  .dropdown{
+    /* display: flex;
+    align-content: center */
+  font-size: 1em;
+  }
+
+  .generic-styling{
+    margin-top: 3em;
+    padding: 3em;
+    /* height:77em; */
+    color: black;
+  }
+
+  .carousel{
+    height: 37em;
+  }
+  .jumbo-img{
+    background-image: url(../images/andres-medecigo-1419821-unsplash.jpg)
+
+  }
